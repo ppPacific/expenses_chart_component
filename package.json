@@ -1,0 +1,12 @@
+{
+  "name": "expenses-chart-component-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch:scss": "node-sass -w styles/style.scss styles/style.css"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

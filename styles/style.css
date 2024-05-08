@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+  .attribution a {
+    color: #3e52a3; }
+
+html, body {
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+html {
+  background: #f8e9dd; }
+  html .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em; }
+    html .container .container_title {
+      background: #ec775f;
+      padding: 0 1.2em 0 1.2em;
+      display: flex;
+      flex-direction: row;
+      border-radius: 0.8em;
+      color: #fffaf5;
+      justify-content: space-between; }
+      html .container .container_title h5 {
+        margin-bottom: -16px; }
+    html .container .container_chart {
+      background: white;
+      padding: 0 1.2em 0 1.2em;
+      border-radius: 0.8em;
+      display: flex;
+      flex-direction: column; }
+      html .container .container_chart .chart_wrapper {
+        padding-bottom: 2em; }
+      html .container .container_chart .chart_bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 1em;
+        border-top: #f8e9dd solid 1px; }
+        html .container .container_chart .chart_bottom p:first-child {
+          color: #7e7d7d;
+          margin-bottom: -16px; }
+        html .container .container_chart .chart_bottom h5 {
+          text-align: end;
+          margin-bottom: -16px; }
+        html .container .container_chart .chart_bottom p:last-child {
+          text-align: end;
+          color: #7e7d7d; }
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 60%;
+    min-width: 360px;
+    padding: 0.4em 2.6em 0.8em 2.6em; } }
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 80%;
+    min-width: 260px;
+    padding: 0.4em 1.6em 0.8em 1.6em; } }
